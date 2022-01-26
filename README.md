@@ -15,6 +15,7 @@ react-scripts test --colors --verbose --runTestsByPath ./src/yaml/sortYaml.test.
 **Run test by test name:**
 
 ```bash
+react-scripts test --testNamePattern=updateCount
 react-scripts test --colors --verbose "--testNamePattern=^sortYaml sorts YAML content by key$"
 ```
 

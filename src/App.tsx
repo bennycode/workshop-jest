@@ -12,8 +12,8 @@ function App() {
         Current count: <span data-testid="counter">{count}</span>
       </p>
       <hr/>
-      <Button sign="+" count={count} updateCount={setCount}/>
-      <Button sign="-" count={count} updateCount={setCount}/>
+      <Button sign="+" count={count} setCount={setCount}/>
+      <Button sign="-" count={count} setCount={setCount}/>
     </div>
   );
 }
