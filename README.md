@@ -1,5 +1,7 @@
 # Testing Workshop
 
+- [React Core Concepts](https://reactjs.org/docs/hello-world.html)
+
 ## Jest
 
 - https://testing-library.com/docs/queries/about
