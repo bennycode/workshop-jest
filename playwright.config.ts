@@ -15,7 +15,7 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'chromium',
-      testMatch: /.*e2e-test.ts/,
+      testMatch: /.*test-e2e.ts/,
       use: {...devices['Desktop Chrome']},
     },
   ],
